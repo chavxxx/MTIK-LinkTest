@@ -1,0 +1,14 @@
+{
+  "name": "mtik-linktest",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "web"
+  ],
+  "scripts": {
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:web": "npm --prefix web run dev",
+    "build:web": "npm --prefix web run build",
+    "check": "npm --prefix backend run build"
+  }
+}
